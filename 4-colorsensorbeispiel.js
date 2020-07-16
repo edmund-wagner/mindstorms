@@ -1,0 +1,6 @@
+sensors.color2.colorMode()
+motors.largeCD.setBrake(true)
+sensors.touch3.pauseUntil(ButtonEvent.Pressed)
+motors.largeCD.tank(50, 50)
+sensors.color2.pauseUntilColorDetected(ColorSensorColor.White)
+brick.exitProgram()
